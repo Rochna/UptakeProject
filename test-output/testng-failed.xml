@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UptakeSuite]">
+  <test name="NavigationTest(failed)">
+    <classes>
+      <class name="testCase.PageNavigation">
+        <methods>
+          <include name="testJoinUsPageNavigation"/>
+        </methods>
+      </class> <!-- testCase.PageNavigation -->
+      <class name="testCase.BaseTest">
+        <methods>
+          <include name="configSetup"/>
+          <include name="configTearDown"/>
+        </methods>
+      </class> <!-- testCase.BaseTest -->
+    </classes>
+  </test> <!-- NavigationTest(failed) -->
+</suite> <!-- Failed suite [UptakeSuite] -->
